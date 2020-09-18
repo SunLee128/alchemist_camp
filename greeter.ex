@@ -1,6 +1,6 @@
 defmodule Greeter do
   def greet do
-    name = IO.gets("Hi, What is your name? ")
+    name = IO.gets("Hi, What is your name?\n ")
 
     case String.trim(name) do
       "Sun" ->
